@@ -1,0 +1,22 @@
+{
+  "name": "@viewstools/animations",
+  "version": "1.0.3",
+  "description": "Views animations wrapper around react-spring",
+  "main": "dom.js",
+  "repository": "https://github.com/viewstools/animations",
+  "author": "Darío Javier Cravero <dario@uxtemple.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react-spring": "^5.3.20"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.0.0-beta.52",
+    "@babel/plugin-transform-runtime": "^7.0.0-beta.52",
+    "@babel/preset-env": "^7.0.0-beta.52",
+    "@babel/preset-react": "^7.0.0-beta.52",
+    "@babel/preset-stage-3": "^7.0.0-beta.52",
+    "babel-core": "7.0.0-bridge.0",
+    "rollup": "^0.62.0",
+    "rollup-plugin-babel": "^4.0.0-beta.4"
+  }
+}
