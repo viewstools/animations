@@ -1,6 +1,6 @@
 {
   "name": "@viewstools/animations",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Views animations wrapper around react-spring",
   "main": "dom.js",
   "repository": "https://github.com/viewstools/animations",
@@ -18,5 +18,11 @@
     "babel-core": "7.0.0-bridge.0",
     "rollup": "^0.62.0",
     "rollup-plugin-babel": "^4.0.0-beta.4"
-  }
+  },
+  "files": [
+    "dom.js",
+    "dom.esm.js",
+    "native.js",
+    "native.esm.js"
+  ]
 }
