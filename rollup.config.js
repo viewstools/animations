@@ -6,14 +6,14 @@ const getBabelOptions = ({ useESModules }) => ({
   exclude: '**/node_modules/**',
   runtimeHelpers: true,
   plugins: [
-    [
-      '@babel/transform-runtime',
-      { regenerator: false, polyfill: false, useBuiltIns: true, useESModules },
-    ],
+    ['@babel/transform-runtime', { regenerator: false, useESModules }],
+    '@babel/plugin-syntax-dynamic-import',
+    '@babel/plugin-syntax-import-meta',
+    ['@babel/plugin-proposal-class-properties', { loose: false }],
+    '@babel/plugin-proposal-json-strings',
   ],
   presets: [
     ['@babel/preset-env', { loose: true, modules: false }],
-    ['@babel/preset-stage-3', { loose: true }],
     '@babel/preset-react',
   ],
 })
