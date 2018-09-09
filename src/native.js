@@ -17,7 +17,7 @@ export const Spring = ({
     impl={SpringAnimation}
     delay={delay}
     native={native}
-    onDone={onDone}
+    onRest={onDone}
     to={to}
   >
     {children}
@@ -37,7 +37,7 @@ export const Timing = ({
     config={{ delay, duration, easing: Easing[curve] }}
     impl={TimingAnimation}
     native={native}
-    onDone={onDone}
+    onRest={onDone}
     to={to}
   >
     {children}
