@@ -1,6 +1,6 @@
 {
   "name": "@viewstools/animations",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Views animations wrapper around react-spring",
   "main": "dom.js",
   "repository": "https://github.com/viewstools/animations",
